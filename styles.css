@@ -41,3 +41,21 @@ ul {
     vertical-align: middle;
     content: url(images/odin.png)
 }
+
+.back {
+    gap: 8px;
+    padding: 12px;
+    height: 64px;
+    width: 64px;
+    float: right;
+}
+
+.back img {
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.back img:hover {
+    transform: scale(1.1);
+}
